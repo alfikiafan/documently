@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $(".menu img").click(function() {
-        $('.menu').toggleClass('abierto');
+        $('.menu').toggleClass('opened');
     });
 
     var header = $('.inicio');
