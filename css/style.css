@@ -1328,8 +1328,9 @@ tr:nth-child(odd) {
     }
 
     .contact article {
-        width: auto;
+        width: 80%;
         margin-top: 10px;
+        text-align: left;
     }
 
     .contact article h3 {
@@ -1368,7 +1369,11 @@ tr:nth-child(odd) {
 
 @media (max-width: 440px) {
     .bar {
-        margin: 0px 13px 0px;
+        margin-right: 27%;
+    }
+
+    .menu a h4 {
+        display: none;
     }
 }
 
