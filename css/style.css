@@ -25,7 +25,7 @@ a {
 ul {
     list-style: none;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 h2 {
@@ -41,14 +41,14 @@ h2 {
 h3 {
     color: #23aacb;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 22px;
 }
 
 p {
     color: #2f2f2f;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 strong {
@@ -88,8 +88,7 @@ section {
     z-index: 0;
     width: 100%;
     padding: 10em 0 49em;
-    background-color: #000;
-    background-image: url(../img/Background-2.jpg);
+    background-color: #ffffff;
 }
 
 .start {
@@ -124,7 +123,7 @@ section {
 .start article #subname {
     font-size: 30px;
     margin-top: 10px;
-    font-weight: 300;
+    font-weight: 400;
     color: white;
     text-shadow: 0 2px 4px rgba(0,0,0,0.5);
     letter-spacing: 2px;
@@ -149,7 +148,7 @@ section {
 .start article a {
     font-family: 'Montserrat', sans-serif;
     color: white !important;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 
@@ -290,7 +289,7 @@ section {
 
 .description article p {
     color: white;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .description article strong {
@@ -312,7 +311,7 @@ section {
     margin-top: 15px;
     padding-left: 25;
     line-height: 40px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #why-choose-us ul {
@@ -469,7 +468,7 @@ section {
     color: white;
     line-height: 28px;
     font-size: 18px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .prices p strong {
@@ -625,7 +624,7 @@ section {
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
     color: white !important;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
 }
 
