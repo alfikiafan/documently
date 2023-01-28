@@ -65,6 +65,12 @@ section {
     width: 100%;
 }
 
+#section-1 {
+    height: 5px;
+    position: relative;
+    width: 100%;
+}
+
 #section-2 {
     height: 5px;
     position: relative;
@@ -72,12 +78,6 @@ section {
 }
 
 #section-3 {
-    height: 5px;
-    position: relative;
-    width: 100%;
-}
-
-#section-4 {
     height: 5px;
     position: relative;
     width: 100%;
@@ -129,7 +129,7 @@ section {
     letter-spacing: 2px;
 }
 
-.start article a#order-button {
+.start article a#order-button, a#price-button {
     padding: 10px 20px;
     font-size: 18px;
     background-color: #23aacb;
@@ -140,7 +140,7 @@ section {
     border-radius: 5px;
 }
 
-.start article a#order-button:hover {
+.start article a#order-button:hover, a#price-button:hover {
     background-color: black;
     transform: scale(1.05, 1.05);
 }
@@ -198,7 +198,6 @@ section {
     padding: 0;
     margin: 0;
     float: right;
-    text-transform: uppercase;
     margin-right: 6px;
 }
 
