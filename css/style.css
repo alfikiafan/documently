@@ -1238,29 +1238,30 @@ tr:nth-child(odd) {
     }
 
     .services article #word {
-        order: 2;
-        margin-top: 12px;
+        order: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
         width: auto;
         height: auto;
     }
 
     .services article #excel {
-        order: 2;
-        margin-top: 12px;
-        width: auto;
-        height: auto;
-    }
-
-    .services article #pdf {
-        order: 2;
-        margin-top: 12px;
+        order: 1;
+        margin-bottom: 20px;
         width: auto;
         height: auto;
     }
 
     .services article #powerpoint {
-        order: 2;
-        margin-top: 12px;
+        order: 0;
+        margin-bottom: 20px;
+        width: auto;
+        height: auto;
+    }
+
+    .services article #pdf {
+        order: 1;
+        margin-bottom: 20px;
         width: auto;
         height: auto;
     }
