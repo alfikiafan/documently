@@ -409,12 +409,12 @@ section {
     overflow: hidden;
 }
 
-.services article #pdf {
+.services article #powerpoint {
     order: 2;
     overflow: hidden;
 }
 
-.services article #powerpoint {
+.services article #pdf {
     order: 1;
     overflow: hidden;
 }
