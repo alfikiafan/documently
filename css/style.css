@@ -5,15 +5,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'Westmeath';
-    src: url("https://documently.id/fonts/westmeath.otf");
-    src: url("https://documently.id/fonts/westmeath.woff") format("woff"),
-    url("https://documently.id/fonts/westmeath.woff2") format("woff2"),
-    url("https://documently.id/fonts/westmeath.otf") format("opentype"),
-    url("https://documently.id/fonts/westmeath.svg") format("svg");
-  }
-
 body {
     background-color: white !important;
 }
@@ -34,7 +25,7 @@ h2 {
     font-size: 35px;
     text-transform: uppercase;
     color: #515151;
-    font-family: 'Westmeath', sans-serif, cursive;
+    font-family: 'Montserrat', sans-serif;
     border-bottom: 1px solid #23aacb;
     padding-bottom: 10px;
 }
@@ -114,7 +105,7 @@ section {
 }
 
 .start article #name {
-    font-family: 'Westmeath', sans-serif, cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 80px;
     font-weight: 500;
     color: white;
@@ -1051,6 +1042,10 @@ tr:nth-child(odd) {
         opacity: .5;
     }
 
+    .start span #scroll {
+        display: none;
+    }
+
     .services article .services-info.first {
         order: 1;
         text-align: right;
@@ -1178,10 +1173,6 @@ tr:nth-child(odd) {
     .start article a#order-button, a#price-button {
         padding: 10px 20px;
         font-size: 15px;
-    }
-
-    .start span #scroll {
-        display: none;
     }
 
     .description {
