@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Westmeath';
+    src: url("https://documently.id/fonts/westmeath.otf");
+    src: url("https://documently.id/fonts/westmeath.woff") format("woff"),
+    url("https://documently.id/fonts/westmeath.woff2") format("woff2"),
+    url("https://documently.id/fonts/westmeath.otf") format("opentype"),
+    url("https://documently.id/fonts/westmeath.svg") format("svg");
+  }
+
 body {
     background-color: white !important;
 }
