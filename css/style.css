@@ -69,15 +69,17 @@ section {
     background-color: #ffffff;
 }
 .start {
-    position: relative;
+    position: absolute;
     z-index: 2;
     background-image: url(../img/Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    width: 100%;
-    height: 100%;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
     text-align: center;
 }
 .start article {
@@ -135,12 +137,12 @@ section {
 }
 .menu {
     overflow: hidden;
-    position: fixed;
-    width: 100%;
+    position: absolute;
+    right: 0px;
+    left: 0px;
     margin: 0 auto;
     top: 0;
     z-index: 10;
-    position: fixed;
     border-bottom: solid 1px black;
 }
 .bar {
@@ -236,7 +238,7 @@ section {
     color: #23aacb !important;
 }
 .description {
-    margin-top: 60px !important;
+    margin-top: 105vh;
     text-align: center;
     position: relative;
     background-color: #23aacb;
@@ -518,7 +520,6 @@ section {
 }
 .contact {
     position: relative;
-    float: left;
     margin-bottom: 15px;
 }
 .contact article {
@@ -544,12 +545,11 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #f7f7f7;
 }
-#social-buttons {
-    margin: 0 auto 35px !important;
-    width: 100%;
-}
+
 .rounded-social-buttons {
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .rounded-social-buttons .social-button {
     display: inline-block;
@@ -557,7 +557,7 @@ tr:nth-child(odd) {
     width: 3.125rem;
     height: 3.125rem;
     border: 0.125rem solid white;
-    padding: 10px;
+    padding: 0px;
     text-decoration: none;
     text-align: center;
     color: #fefefe;
@@ -575,8 +575,8 @@ tr:nth-child(odd) {
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
-    font-size: 25px;
+.rounded-social-buttons .fa-facebook-f, .fa-whatsapp, .fa-instagram {
+    font-size: 30px;
 }
 .rounded-social-buttons .social-button.facebook {
     background: #3b5998;
@@ -699,7 +699,7 @@ tr:nth-child(odd) {
         font-size: 15px;
    }
     .portfolio article#why-choose-us {
-        margin: 40px 0px 20px !important;
+        margin: 40px 0px 20px;
    }
     .portfolio article#why-choose-us p {
         font-size: 16px !important;
@@ -725,7 +725,7 @@ tr:nth-child(odd) {
         width: auto;
    }
     #contact {
-        width: auto;
+        width: 100%;
    }
     .footer-content {
         text-align: left;
@@ -738,18 +738,18 @@ tr:nth-child(odd) {
 }
 @media (max-width: 1190px) {
     .menu a#logo {
-        width: 15%;
+        width: 300px;
    }
     .menu a img {
-        width: 50%;
+        width: 20%;
         height: auto;
    }
     .menu h3 {
         display: none;
    }
-    .menu p {
+    /* .menu p {
         display: none;
-   }
+   } */
     .start span #scroll {
         font-size: 18px;
    }
@@ -783,8 +783,11 @@ tr:nth-child(odd) {
    }
 }
 @media (max-width: 820px) {
+    .menu a#logo {
+        width: 20%;
+   }
     .menu a img {
-        width: 55%;
+        width: 45%;
         height: auto;
    }
     .menu h3 {
@@ -925,7 +928,7 @@ tr:nth-child(odd) {
 }
 @media (max-width: 640px) {
     .menu a img {
-        width: 85%;
+        width: 50%;
         height: auto;
    }
     .start article #name {
@@ -946,7 +949,7 @@ tr:nth-child(odd) {
         font-size: 18px;
    }
     section {
-        margin: 0px 0px 25px 0px !important;
+        margin: 0px 0px 25px 0px;
    }
     p {
         font-size: 15px;
@@ -956,7 +959,7 @@ tr:nth-child(odd) {
         height: 60%;
    }
     .menu a img {
-        width: 100%;
+        width: 60%;
         margin: 1em 1em 1em 1.5em;
         display: inline-block;
    }
@@ -976,9 +979,9 @@ tr:nth-child(odd) {
         font-size: 15px;
    }
     .description {
+        margin-top: 63vh;
         padding: 40px 15px;
         line-height: 30px;
-        margin-top: 30px !important;
    }
     .description article {
         line-height: 25px;
@@ -988,6 +991,9 @@ tr:nth-child(odd) {
     .welcome {
         padding: 10em 0 30em;
    }
+   .portfolio article#why-choose-us {
+    margin: 0px 0px 20px;
+    }
     .services {
         padding: 0px 15px;
    }
@@ -1050,7 +1056,7 @@ tr:nth-child(odd) {
         height: auto;
    }
     #testimony {
-        margin: 55px 0px;
+        margin: 40px 0px;
         padding: 30px 15px;
    }
     #testimony p {
@@ -1113,7 +1119,7 @@ tr:nth-child(odd) {
         font-size: 15px;
    }
     .menu a img {
-        width: 110%;
+        width: 30%;
         height: auto;
    }
 }
