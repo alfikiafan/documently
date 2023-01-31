@@ -86,7 +86,6 @@ section {
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 .start article #name {
@@ -94,14 +93,14 @@ section {
     font-size: 80px;
     font-weight: 500;
     color: white;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 4px rgba(0,0,0,.5);
 }
 .start article #subname {
     font-size: 30px;
     margin-top: 10px;
     font-weight: 500;
     color: white;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 4px rgba(0,0,0,.5);
     letter-spacing: 2px;
 }
 .start article a#order-button, a#price-button {
@@ -205,17 +204,15 @@ section {
 .menu.is-hidden {
     opacity: 0;
     transform: translate(0,-60px);
-    transition: transform .6s,background .3s,color .3s,opacity 0 .3s;
+    transition: transform .6s, background .3s, color .3s, opacity .3s;
 }
 .menu.is-visible {
     opacity: 1;
     transform: translate(0,0);
-    transition: transform .6s,background .3s,color .3s;
+    transition: transform .6s, background .3s, color .3s;
 }
 .menu.navbar-fixed-top.scrolled {
-    -webkit-box-shadow: 0px 6px 5px -3px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 6px 5px -3px rgba(0,0,0,0.4);
-    box-shadow: 0px 6px 5px -3px rgba(0,0,0,0.4);
+    box-shadow: 0px 6px 5px -3px rgba(0,0,0,.4);
     transition: background-color .4s linear;
     background-color: #ffffff;
     border-bottom: none !important;
@@ -273,7 +270,7 @@ section {
 }
 .portfolio article ul {
     margin-top: 15px;
-    padding-left: 25;
+    padding-left: 25px;
     line-height: 40px;
     font-weight: 400;
 }
@@ -395,8 +392,6 @@ section {
     max-height: 750px;
     position: relative;
     overflow: hidden;
-    -webkit-box-shadow: -1px 3px 17px -4px rgba(130,30,45,1);
-    -moz-box-shadow: -1px 3px 17px -4px rgba(130,30,45,1);
     box-shadow: -1px 3px 17px -4px rgba(130,30,45,1);
     transition: .2s ease-in-out;
 }
@@ -451,7 +446,7 @@ section {
     padding: 30px 0px;
     background-color: white;
     color: black;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    border-bottom: 1px solid rgba(0, 0, 0, .09);
 }
 .prices .price-details .prices-box {
     width: 100%;
@@ -556,7 +551,7 @@ tr:nth-child(odd) {
     position: relative;
     width: 3.125rem;
     height: 3.125rem;
-    border: 0.125rem solid white;
+    border: .125rem solid white;
     padding: 0px;
     text-decoration: none;
     text-align: center;
@@ -565,14 +560,12 @@ tr:nth-child(odd) {
     font-weight: normal;
     line-height: 2em;
     border-radius: 1.6875rem;
-    transition: all 0.5s ease;
+    transition: all .5s ease;
     margin-right: 3.25rem;
-    margin-bottom: 0.25rem;
+    margin-bottom: .25rem;
     cursor: pointer;
 }
 .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
-    -webkit-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
 .rounded-social-buttons .fa-facebook-f, .fa-whatsapp, .fa-instagram {
@@ -851,7 +844,7 @@ tr:nth-child(odd) {
     .menu.opened li {
         display: block;
         text-align: center;
-        padding: 0.2em;
+        padding: .2em;
         margin-top: 0px;
         font-size: 1.1em;
    }
@@ -1091,8 +1084,8 @@ tr:nth-child(odd) {
         margin-right: 10%;
    }
     .rounded-social-buttons .social-button {
-        margin-right: 0.8rem;
-        margin-left: 0.8rem;
+        margin-right: .8rem;
+        margin-left: .8rem;
    }
     footer {
         padding: 10px 10px 10px;
