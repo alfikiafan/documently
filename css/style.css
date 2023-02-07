@@ -243,8 +243,102 @@
     color: #23aacb !important;
     font-weight: 600;
   }
-  .description {
+  .statistics {
     margin-top: 105vh;
+  }
+  .facts {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .containerfacts {
+    padding-top: 3rem;
+  }
+  .rowfacts {
+    display: flex;
+    background-color:#23aacb;
+    box-shadow: -1px 3px 17px -4px rgb(5, 64, 78);
+  }
+  .columnfacts {
+    display: flex;
+    flex: 0 0 auto;
+    width: 33.33333%;
+    justify-content: center;
+  }
+  .boxitem {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    height: 150px;
+  }
+  .boxlogo {
+    background-color: #ffffff;
+    color: #23aacb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-bottom: .5rem;
+    width: 60px; height: 60px;
+  }
+  .boxtext {
+    padding-left: 1.5rem;
+  }
+  .textfacts {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  .numberfacts {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .columnfacts-1 {
+    display: flex;
+    flex: 0 0 auto;
+    width: 33.33333%;
+    justify-content: center;
+    background-color: #EEF9FF;
+  }
+  .boxitem-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    height: 150px;
+  }
+  .boxlogo-1 {
+    background-color: #23aacb;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-bottom: .5rem;
+    width: 60px; height: 60px;
+  }
+  .boxtext-1 {
+    padding-left: 1.5rem;
+  }
+  .textfacts-1 {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #23aacb;
+    font-weight: 500;
+  }
+  .numberfacts-1 {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .description {
     text-align: center;
     position: relative;
     background-color: #23aacb;
@@ -1018,6 +1112,23 @@
     .start span #scroll {
       display: none;
     }
+    .statistics {
+      margin-top: 102vh;
+      margin-bottom: 4vh;
+    }
+    .rowfacts {
+      flex-direction: column;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+      justify-self: center;
+    }
+    .columnfacts {
+      width: 100%;
+    }
+    .columnfacts-1 {
+      width: 100%;
+    }
     .services article .services-info.first {
       order: 1;
       text-align: right;
@@ -1216,8 +1327,10 @@
       padding: 10px 20px;
       font-size: 15px;
     }
+    .statistics {
+      margin-top: 60vh;
+    }
     .description {
-      margin-top: 63vh;
       padding: 40px 15px;
       line-height: 30px;
     }

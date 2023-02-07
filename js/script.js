@@ -1,11 +1,34 @@
 $(document).ready(function(){
-
     $(".menu img").click(function() {
         $('.menu').toggleClass('opened');
     });
 
-    var header = $('.inicio');
+    var header = $('.start');
     var range = 80;
+
+    const counterUp = window.counterUp.default
+
+    const callback = entries => {
+	    entries.forEach( entry => {
+            const el = entry.target
+            if (entry.isIntersecting && !el.classList.contains('is-visible')) {
+                counterUp(el, {
+                    duration: 1500,
+                    delay: 10,
+                })
+                el.classList.add('is-visible')
+            }
+	    })
+    }
+
+    const IO = new IntersectionObserver( callback, { threshold: 1 } )
+
+    const el = document.querySelector( '.counter' )
+    const el2 = document.querySelector( '.counter2' )
+    const el3 = document.querySelector( '.counter3' )
+    IO.observe(el)
+    IO.observe(el2)
+    IO.observe(el3)
 
     $(window).on('scroll', function () {
         var scrollTop = $(this).scrollTop(),
@@ -43,6 +66,7 @@ $(document).ready(function(){
             });
         }
     });
+
     const items = document.querySelectorAll(".accordion button");
     function toggleAccordion() {
         const itemToggle = this.getAttribute('aria-expanded');
