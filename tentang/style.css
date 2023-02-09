@@ -30,14 +30,13 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 22px;
-    border-bottom: 1px solid #23aacb;
-    padding-bottom: 10px;
   }
   h4 {
     color: #000000;
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 450;
     font-size: 20px;
+    margin-bottom: 0.5rem;
   }
   p {
     font-family: "Montserrat", sans-serif;
@@ -165,6 +164,64 @@
     line-height: 32px;
     margin-top: 14px;
     font-size: 18px;
+  }
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .inner-column {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .image-column {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+    min-height: 260px;
+    position: relative;
+    height: 100%;
+    padding-right: 10%;
+  }
+  .image-about {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .icon {
+    margin-right: 1rem !important;
+    color: #23aacb;
+  }
+  .order-button {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #23aacb;
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+  }
+  .order-button:hover {
+    background-color: black;
+    transform: scale(1.05, 1.05);
   }
   tr,
   th,
@@ -435,11 +492,22 @@
     .menu.opened .close:hover {
       opacity: 0.5;
     }
-    .title {
-      margin: 120px 0px 30px 40px;
+    .column {
+      width: 100%;
     }
-    .content {
-      margin-top: 30px;
+    .image-column {
+      width: 100%;
+      position: relative;
+      padding-right: 0;
+      margin-bottom: 5%;
+    }
+    .image-about {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-height: 260px;
+      object-fit: contain;
     }
   }
   @media (max-width: 640px) {

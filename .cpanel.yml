@@ -7,3 +7,6 @@ deployment:
     - /bin/cp -r fonts $DEPLOYPATH
     - /bin/cp -r img $DEPLOYPATH
     - /bin/cp -r js $DEPLOYPATH
+    - /bin/cp -r privasi $DEPLOYPATH
+    - /bin/cp -r tentang $DEPLOYPATH
+    # - /bin/cp -r kontak $DEPLOYPATH
