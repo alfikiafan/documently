@@ -627,10 +627,10 @@
       padding-left: 10px;
     }
     .item-name {
-      font-size: 12px;
+      font-size: 15px;
     }
     .item-value {
-      font-size: 8px;
+      font-size: 15px;
     }
   }
   @media (max-width: 350px) {
@@ -638,8 +638,6 @@
       width: 80%;
       height: auto;
     }
-  }
-  @media (max-width: 315px) {
     .desktop {
       display: none;
     }
