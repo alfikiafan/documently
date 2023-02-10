@@ -50,6 +50,9 @@
             if (isMobile && settings.showPopup) {
                 openPopup();
             }
+            else if ($popup.hasClass('active')) {
+                $popup.removeClass('active');
+            }
             else {
                 openPopup();
             }
@@ -57,6 +60,9 @@
         $button.on('ontouchstart', function () {
             if (isMobile && settings.showPopup) {
                 openPopup();
+            }
+            else if ($popup.hasClass('active')) {
+                $popup.removeClass('active');
             }
             else {
                 openPopup();
