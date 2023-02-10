@@ -614,23 +614,23 @@
       display: none;
     }
     .logo {
-      width: 8vw;
-      height: 8vw;
+      width: 30px;
+      height: 30px;
     }
     .fa {
-      font-size: 4vw;
+      font-size: 14px;
     }
     .logo .fab {
-      font-size: 4vw;
+      font-size: 14px;
     }
     .inner-item {
-      padding-left: 2vw;
+      padding-left: 10px;
     }
     .item-name {
-      font-size: 2vw;
+      font-size: 12px;
     }
     .item-value {
-      font-size: 1.5vw;
+      font-size: 8px;
     }
   }
   @media (max-width: 350px) {

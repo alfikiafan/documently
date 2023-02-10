@@ -572,6 +572,12 @@
     .menu a h4 {
       display: none;
     }
+    .inner-column {
+      width: 100%;
+    }
+    .inner-column h4 {
+      font-size: 16px;
+    }
   }
   @media (max-width: 350px) {
     .menu a img {
@@ -581,7 +587,7 @@
     .content p {
       text-align: left;
     }
-    h4 {
+    .inner-column h4 {
       font-size: 14px;
     }
     .icon {
