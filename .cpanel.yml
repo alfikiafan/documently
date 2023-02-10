@@ -9,4 +9,4 @@ deployment:
     - /bin/cp -r js $DEPLOYPATH
     - /bin/cp -r privasi $DEPLOYPATH
     - /bin/cp -r tentang $DEPLOYPATH
-    # - /bin/cp -r kontak $DEPLOYPATH
+    - /bin/cp -r kontak $DEPLOYPATH
