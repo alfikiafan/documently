@@ -173,7 +173,6 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 0.5rem;
-    margin-right: 0.5rem;
   }
   .row:after {
     content: "";
@@ -209,6 +208,9 @@
   .item-name, .item-value {
     white-space: normal;
   }
+  .mobile {
+    display: none;
+  }
   .column-form {
     flex: 0 0 auto;
     width: 100%;
@@ -231,7 +233,6 @@
     display: block;
     width: 100%;
     padding: 0.375rem 0.75rem;
-    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #000000;
@@ -264,7 +265,8 @@
     transform: scale(1.05, 1.05);
   }
   .hour-table td {
-    min-width: 8rem;
+    min-width: 6rem;
+    font-family: "Montserrat", sans-serif;
   }
   .hour-table tr:nth-of-type(even) {
     background-color: #d3eef5;
@@ -459,7 +461,7 @@
       width: 20%;
     }
     .menu a img {
-      width: 35%;
+      width: 40%;
       height: auto;
       margin-top: 0.5em;
     }
@@ -552,7 +554,7 @@
   }
   @media (max-width: 640px) {
     .menu a img {
-      width: 40%;
+      width: 45%;
       height: auto;
       margin-top: 0.7em;
     }
@@ -574,7 +576,7 @@
       font-size: 15px;
     }
     .menu a img {
-      width: 50%;
+      width: 60%;
       margin-top: 0.8em;
       display: inline-block;
     }
@@ -611,10 +613,37 @@
     .menu a h4 {
       display: none;
     }
+    .logo {
+      width: 8vw;
+      height: 8vw;
+    }
+    .fa {
+      font-size: 4vw;
+    }
+    .logo .fab {
+      font-size: 4vw;
+    }
+    .inner-item {
+      padding-left: 2vw;
+    }
+    .item-name {
+      font-size: 2vw;
+    }
+    .item-value {
+      font-size: 1.5vw;
+    }
   }
   @media (max-width: 350px) {
     .menu a img {
-      width: 30%;
+      width: 80%;
       height: auto;
+    }
+  }
+  @media (max-width: 315px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: flex;
     }
   }

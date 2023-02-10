@@ -112,7 +112,6 @@
   .start article a#order-button,
   a#price-button {
     padding: 10px 20px;
-    font-size: 18px;
     background-color: #23aacb;
     display: inline-block;
     margin-top: 20px;
@@ -1024,7 +1023,7 @@
       width: 20%;
     }
     .menu a img {
-      width: 35%;
+      width: 40%;
       height: auto;
       margin-top: 0.5em;
     }
@@ -1200,7 +1199,7 @@
   }
   @media (max-width: 640px) {
     .menu a img {
-      width: 40%;
+      width: 45%;
       height: auto;
       margin-top: 0.7em;
     }
@@ -1307,7 +1306,7 @@
       height: 60%;
     }
     .menu a img {
-      width: 50%;
+      width: 60%;
       margin-top: 0.8em;
       display: inline-block;
     }
@@ -1404,7 +1403,7 @@
       font-size: 15px;
     }
     .menu a img {
-      width: 70%;
+      width: 80%;
       height: auto;
     }
     .row {

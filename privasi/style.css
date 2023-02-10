@@ -164,7 +164,6 @@
     text-align: justify;
     line-height: 32px;
     margin-top: 14px;
-    font-size: 18px;
   }
   tr,
   th,
@@ -351,7 +350,7 @@
       width: 20%;
     }
     .menu a img {
-      width: 35%;
+      width: 40%;
       height: auto;
       margin-top: 0.5em;
     }
@@ -444,7 +443,7 @@
   }
   @media (max-width: 640px) {
     .menu a img {
-      width: 40%;
+      width: 45%;
       height: auto;
       margin-top: 0.7em;
     }
@@ -464,9 +463,13 @@
     }
     p {
       font-size: 15px;
+      line-height: 32px;
+    }
+    .content p {
+      line-height: 24px;
     }
     .menu a img {
-      width: 50%;
+      width: 60%;
       margin-top: 0.8em;
       display: inline-block;
     }
@@ -506,7 +509,10 @@
   }
   @media (max-width: 350px) {
     .menu a img {
-      width: 30%;
+      width: 80%;
       height: auto;
+    }
+    .content p {
+      text-align: left;
     }
   }

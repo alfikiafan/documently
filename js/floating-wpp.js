@@ -92,9 +92,9 @@
                 $inputMessage)
                 .appendTo(this);
 
-            $popupMessage.click(function () {
-                sendWhatsappMessage();
-            });
+            // $popupMessage.click(function () {
+            //     sendWhatsappMessage();
+            // });
 
             $closeBtn.click(function () {
                 $popup.removeClass('active');

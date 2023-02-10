@@ -163,7 +163,6 @@
     text-align: justify;
     line-height: 32px;
     margin-top: 14px;
-    font-size: 18px;
   }
   .container {
     width: 100%;
@@ -210,7 +209,6 @@
   .order-button {
     font-family: "Montserrat", sans-serif;
     padding: 10px 20px;
-    font-size: 18px;
     background-color: #23aacb;
     color: #ffffff;
     display: inline-block;
@@ -408,7 +406,7 @@
       width: 20%;
     }
     .menu a img {
-      width: 35%;
+      width: 40%;
       height: auto;
       margin-top: 0.5em;
     }
@@ -512,7 +510,7 @@
   }
   @media (max-width: 640px) {
     .menu a img {
-      width: 40%;
+      width: 45%;
       height: auto;
       margin-top: 0.7em;
     }
@@ -533,8 +531,11 @@
     p {
       font-size: 15px;
     }
+    .content p {
+      line-height: 24px;
+    }
     .menu a img {
-      width: 50%;
+      width: 60%;
       margin-top: 0.8em;
       display: inline-block;
     }
@@ -574,7 +575,16 @@
   }
   @media (max-width: 350px) {
     .menu a img {
-      width: 30%;
+      width: 80%;
       height: auto;
+    }
+    .content p {
+      text-align: left;
+    }
+    h4 {
+      font-size: 14px;
+    }
+    .icon {
+      margin-right: 5px !important;
     }
   }
