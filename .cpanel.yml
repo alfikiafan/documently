@@ -2,11 +2,4 @@
 deployment:
     tasks:
       - export DEPLOYPATH=/home/u1578064/public_html/
-      - /bin/cp -R index.html $DEPLOYPATH
-      - /bin/cp -R css $DEPLOYPATH
-      - /bin/cp -R img $DEPLOYPATH
-      - /bin/cp -R js $DEPLOYPATH
-      - /bin/cp -R kontak $DEPLOYPATH
-      - /bin/cp -R privasi $DEPLOYPATH
-      - /bin/cp -R tentang $DEPLOYPATH
-      - /bin/cp -R .cpanel.yml $DEPLOYPATH
+      - /bin cp -r * $DEPLOYPATH
