@@ -119,6 +119,17 @@ strong {
     font-size: 0;
     cursor: pointer;
 }
+.button-badge {
+    background-color: #fa3e3e;
+    border-radius: 50%;
+    color: white;
+    padding: 3px 9px;
+    font-size: 10px;
+    position: absolute; /* Position the badge within the relatively positioned button */
+    top: 0;
+    right: 0;
+    z-index: 11;
+  }
 
 @media (max-width: 440px) {
     .floating-wpp .floating-wpp-popup.active {

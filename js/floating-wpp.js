@@ -131,6 +131,7 @@
             function openPopup() {
                 if (!$popup.hasClass('active')) {
                     $popup.addClass('active');
+                    $(".button-badge").css("display", "none");
                     $textarea.focus();
                 }
             }
@@ -175,5 +176,5 @@ $(function () {
         showPopup: true,
         showOnIE: false,
         headerTitle: 'Selamat datang di Documently!',
-    });
+    });  
 });
