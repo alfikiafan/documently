@@ -50,8 +50,13 @@
             if (isMobile && settings.showPopup) {
                 openPopup();
             }
-            else if (settings.popupMessage) {
-                $popup.removeClass('active');
+            else {
+                openPopup();
+            }
+        });
+        $button.on('ontouchstart', function () {
+            if (isMobile && settings.showPopup) {
+                openPopup();
             }
             else {
                 openPopup();
@@ -118,9 +123,9 @@
                 sendWhatsappMessage();
             });
 
-            this.mouseenter(function () {
-                openPopup();
-            });
+            // this.mouseenter(function () {
+            //     openPopup();
+            // });
 
             if (settings.autoOpenTimeout > 0) {
                 setTimeout(function () {
