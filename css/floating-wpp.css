@@ -40,7 +40,7 @@
 
 .floating-wpp .floating-wpp-popup {
     /*border: 2px solid white;*/
-    border-radius: 24px;
+    border-radius: 12px;
     background-color: #E5DDD5;
     position: absolute;
     overflow: hidden;
@@ -103,10 +103,10 @@ strong {
 
 .floating-wpp .floating-wpp-input-message textarea {
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 12px;
     box-shadow: none;
     padding: 12px;
-    margin: 24px 0px 12px;
+    margin: 16px 0px 16px;
     width: 100%;
     max-width: 100%;
     font-family: inherit;
