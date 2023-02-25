@@ -109,6 +109,13 @@
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     letter-spacing: 2px;
   }
+  .start article #title-desc {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 2px;
+  }
   .start article a#order-button,
   a#price-button {
     padding: 10px 20px;
@@ -1210,6 +1217,9 @@
     .start article #subname {
       font-size: 20px;
     }
+    .start article #title-desc {
+      font-size: 14px;
+    }
     .services {
       padding: 0px 15px;
     }
@@ -1304,7 +1314,7 @@
     }
     .start {
       background-attachment: initial !important;
-      height: 60%;
+      height: 80%;
     }
     .menu a img {
       width: 60%;
@@ -1328,7 +1338,7 @@
       font-size: 15px;
     }
     .statistics {
-      margin-top: 60vh;
+      margin-top: 80vh;
     }
     .description {
       padding: 40px 15px;
@@ -1397,11 +1407,8 @@
     }
   }
   @media (max-width: 350px) {
-    .start article #name {
-      font-size: 30px;
-    }
-    .start article #subname {
-      font-size: 15px;
+    .start article #title-desc {
+      font-size: 12px;
     }
     .menu a img {
       width: 80%;
@@ -1413,6 +1420,18 @@
     .column {
       margin-left: auto;
       margin-right: auto;
+    }
+  }
+
+  @media (max-width: 280px) {
+    .start article #name {
+      font-size: 30px;
+    }
+    .start article #subname {
+      font-size: 15px;
+    }
+    .start article #title-desc {
+      font-size: 12px;
     }
   }
   
