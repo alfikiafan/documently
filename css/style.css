@@ -104,16 +104,17 @@
   }
   .start article #subname {
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 16px;
     font-weight: 500;
     color: white;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     letter-spacing: 2px;
   }
   .start article #title-desc {
+    font-family: "Open Sans";
     font-size: 18px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-weight: 400;
     color: white;
     letter-spacing: 2px;
@@ -1337,7 +1338,7 @@
     }
     .start article #subname {
       font-size: 19px;
-      margin-top: 8px;
+      margin-top: 12px;
     }
     .start article a#order-button,
     a#price-button {
