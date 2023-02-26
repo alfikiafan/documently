@@ -1412,6 +1412,10 @@
     .menu a h4 {
       display: none;
     }
+    .start article a#order-button,
+    a#price-button {
+      margin: 10px;
+    }
   }
   @media (max-width: 350px) {
     .start article #title-desc {
@@ -1441,4 +1445,3 @@
       font-size: 12px;
     }
   }
-  
