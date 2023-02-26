@@ -10,3 +10,4 @@ deployment:
       - /bin/cp -r privasi $DEPLOYPATH
       - /bin/cp -r tentang $DEPLOYPATH
       - /bin/cp -r .cpanel.yml $DEPLOYPATH
+      - /bin/cp -r sitemap.xml $DEPLOYPATH
