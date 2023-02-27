@@ -593,9 +593,11 @@
   .column {
     width: fit-content;
     margin-top: 20px;
-    margin-right: 10px;
     float: left;
     padding: 5px;
+  }
+  .mr-30 {
+    margin-right: 30px;
   }
   .row {
     width: fit-content;
@@ -953,8 +955,11 @@
     .prices .price-details article .cost {
       padding: 20px 0px;
     }
+    #testimony {
+      padding: 50px 100px;
+    }
   }
-  @media (max-width: 1030px) {
+  @media (max-width: 1080px) {
     .start article {
       width: 80%;
     }
@@ -1026,12 +1031,19 @@
     #contact {
       width: 100%;
     }
-    .footer-content {
-      flex-direction: column;
+  }
+  @media (max-width: 915px) {
+    .row {
+      width: 280px;
+      display: block;
     }
-    .footer-menu {
-      margin: 40px 0px;
-      padding-left: 0px;
+    .column {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+    .mh25 {
+      margin-left: 25% !important;
+      margin-right: 25% !important;
     }
   }
   @media (max-width: 820px) {
@@ -1202,16 +1214,15 @@
     .payment h2 {
       text-align: center;
     }
-    .row {
-      width: 280px;
-      display: block;
-    }
-    .column {
-      margin-left: 20%;
-      margin-right: 20%;
-    }
     #persuasion {
       height: 15em;
+    }
+    .footer-content {
+      flex-direction: column;
+    }
+    .footer-menu {
+      margin: 40px 0px;
+      padding-left: 0px;
     }
   }
   @media (max-width: 640px) {
