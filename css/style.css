@@ -597,6 +597,12 @@
     float: left;
     padding: 5px;
   }
+  .w-150 {
+    width: 150px;
+  }
+  .w-110 {
+    width: 110px;
+  }
   .mr-30 {
     margin-right: 30px;
   }
@@ -1042,7 +1048,7 @@
       margin-left: 20%;
       margin-right: 20%;
     }
-    .mh25 {
+    .mh-25 {
       margin-left: 25% !important;
       margin-right: 25% !important;
     }

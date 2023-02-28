@@ -228,6 +228,9 @@
     padding-left: 0.5rem;
     margin: 0.5rem 0;
   }
+  input {
+    height: 55px;
+  }
   .form-control {
     font-family: "Montserrat", sans-serif;
     display: block;
