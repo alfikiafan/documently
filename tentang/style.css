@@ -348,15 +348,14 @@
     text-decoration: none;
     color: white;
   }
-  .footer-logo > h2 {
-    margin-top: 25px;
+  .footer-logo > h3 {
+    margin: 15px 0px;
     font-size: 25px;
     color: white;
   }
   .footer-logo > p {
     font-size: 16px;
     line-height: 1.6;
-    text-align: justify;
     color: white;
   }
   .footer-copyright {
