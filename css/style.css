@@ -591,6 +591,7 @@
     margin-bottom: 10px;
   }
   .column {
+    width: -moz-fit-content;
     width: fit-content;
     margin-top: 20px;
     float: left;
@@ -600,6 +601,7 @@
     margin-right: 30px;
   }
   .row {
+    width: -moz-fit-content;
     width: fit-content;
     margin: auto;
     margin-bottom: 50px;
