@@ -494,7 +494,7 @@
       text-align: left;
     }
     footer p {
-      font-size: 12px;
+      line-height: 115%;
     }
     footer p:nth-child(1) {
       margin-bottom: 10px;
