@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
    <head>
-      <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-PLFBFWK');</script>
-      <!-- End Google Tag Manager -->
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=AW-824450049"></script>
       <script>
@@ -17,6 +10,24 @@
 
          gtag('config', 'AW-824450049');
       </script>
+      <!-- Event snippet for Pesan via WhatsApp conversion page -->
+      <script>
+         function gtag_report_conversion(url) {
+         var callback = function () {
+            if (typeof(url) != 'undefined') {
+               window.location = url;
+            }
+         };
+         gtag('event', 'conversion', {
+               'send_to': 'AW-824450049/POLSCKPFlpMYEIG4kIkD',
+               'value': 10000.0,
+               'currency': 'IDR',
+               'event_callback': callback
+         });
+         return false;
+         }
+         </script>
+   
       <title>Documently | Jasa Ketik Online</title>
       <meta name="description" content="Jasa Ketik Online. Menyediakan layanan pengetikan dokumen, seperti file Word, Excel, PDF, dan PowerPoint">
       <meta charset="UTF-8">
@@ -78,7 +89,7 @@
                <p id="name">Documently</p>
                <p id="subname">Jasa Ketik Online</p>
                <p id="title-desc">Kami menyediakan layanan pengetikan word, edit pdf, pembuatan CV, pembuatan ppt, transkrip wawancara, merapikan file, input data, dan jasa pengetikan lainnya.</p>
-               <a href="https://api.whatsapp.com/send/?phone=6281807031625&text=Halo+kak.+Saya+mau+pesan+jasa+ketik" target="_blank" id="order-button" rel="noopener">Pesan via WhatsApp</a>
+               <a href="https://api.whatsapp.com/send/?phone=6281807031625&text=Halo+kak.+Saya+mau+pesan+jasa+ketik" target="_blank" id="order-button" rel="noopener" onclick="gtag_report_conversion('https://api.whatsapp.com/send/?phone=6281807031625&text=Halo+kak.+Saya+mau+pesan+jasa+ketik');">Pesan via WhatsApp</a>
                <a href="#section-2" id="price-button">Lihat Harga</a>
             </article>
             <div class="scroll">

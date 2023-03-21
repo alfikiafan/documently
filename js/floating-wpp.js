@@ -164,6 +164,8 @@
         function sendWhatsappMessage() {
             const apilink = 'https://wa.me/' + settings.phone + '?text=' + encodeURI(settings.message);
             window.open(apilink);
+            // Track conversion using Google Ads gtag.js
+            gtag_report_conversion('https://api.whatsapp.com/send/?phone=6281807031625&text=Halo+kak.+Saya+mau+pesan+jasa+ketik');
         }
     }
 
