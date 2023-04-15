@@ -389,7 +389,6 @@
     padding-top: 30px;
   }
   #why-choose-us .icons li {
-    width: calc(33% - 10px);
     margin: 50px 0px 20px 0px;
     flex-basis: 30%;
   }
@@ -981,13 +980,8 @@
       margin-top: 70px;
     }
     .portfolio {
-      margin-bottom: 30px;
-    }
-    .portfolio {
+      margin: 100px 65px;
       padding: 0px 15px;
-    }
-    .portfolio h2 {
-      text-align: center;
     }
     .portfolio article ul {
       line-height: 35px;
@@ -1010,9 +1004,7 @@
       margin: 0px 0px 15px 0px !important;
     }
     #why-choose-us .icons li {
-      width: calc(50% - 10px);
       margin: 50px 0px 20px 0px;
-      flex-basis: 50%;
     }
     .services article div {
       padding: 0 35px;
@@ -1238,6 +1230,12 @@
     .start div #title-desc {
       font-size: 16px;
     }
+    .portfolio {
+      text-align: center;
+    }
+    #why-choose-us .icons li {
+      flex-basis: 50%;
+    }
     .services {
       padding: 0px 15px;
     }
@@ -1324,7 +1322,7 @@
     h3 {
       font-size: 18px;
     }
-    section {
+    section, .portfolio{
       margin: 0px 0px 25px 0px;
     }
     p {
@@ -1438,6 +1436,9 @@
     .column {
       margin-left: auto;
       margin-right: auto;
+    }
+    .portfolio .icons li {
+      width: 10vw;
     }
   }
 
