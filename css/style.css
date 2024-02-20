@@ -491,10 +491,11 @@
     background-color: #23aacb;
     background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
     max-height: 750px;
+    width: 25%;
     position: relative;
     overflow: hidden;
     box-shadow: -1px 3px 17px -4px rgba(130, 30, 45, 1);
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
   }
   .prices .price-details div .price {
     color: white;
@@ -557,10 +558,10 @@
     align-items: center;
   }
   .prices .price-details .prices-box p:nth-child(1) {
-    width: 45%;
+    width: 50%;
   }
   .prices .price-details .prices-box p:nth-child(2) {
-    width: 55%;
+    width: 50%;
   }
   #testimony {
     text-align: center;
