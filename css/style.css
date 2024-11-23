@@ -482,20 +482,29 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     margin: 40px 50px;
   }
   .prices .price-details div {
-    margin: 10px;
+    width: 45%;
+    margin: 0 20px;
     background-color: #23aacb;
     background-image: url("https://www.transparenttextures.com/patterns/cardboard-flat.png");
     max-height: 750px;
-    width: 25%;
     position: relative;
     overflow: hidden;
     box-shadow: -1px 3px 17px -4px rgba(130, 30, 45, 1);
     transition: 0.1s ease-in-out;
+  }
+  .prices .price-details .prices-box p.price-desc {
+    flex: 1 1 auto;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+    line-height: 22px;
   }
   .prices .price-details div .price {
     color: white;
@@ -543,6 +552,7 @@
     text-align: left;
   }
   .prices .price-details div .cost {
+    flex: 0 0 auto;
     font-size: 18px;
     font-weight: 500;
     padding: 30px 10px;
@@ -924,34 +934,6 @@
     }
     .services article div img {
       width: 50%;
-    }
-    .prices {
-      padding: 17px 15px;
-      line-height: 30px;
-    }
-    .prices #prices-intro {
-      font-size: 15px;
-      line-height: 25px;
-      margin: 15px 0px 15px 0px;
-    }
-    .prices h2 {
-      margin-top: 10px !important;
-      margin-bottom: 13px;
-    }
-    .prices .price-details {
-      flex-direction: column;
-      margin: 0px !important;
-    }
-    .prices .price-details div {
-      width: 60%;
-    }
-    .prices .price-details div .price-desc {
-      font-size: 16px;
-      overflow: hidden;
-      line-height: 26px;
-    }
-    .prices .price-details div .cost {
-      padding: 20px 0px;
     }
     #testimony {
       padding: 50px 100px;
