@@ -262,8 +262,9 @@
     transform: rotate(360deg);
   }
   .rounded-social-buttons .fa-facebook-f,
-  .fa-whatsapp,
-  .fa-instagram {
+  .rounded-social-buttons .fa-whatsapp,
+  .rounded-social-buttons .fa-instagram,
+  .rounded-social-buttons .fa-linkedin-in {
     font-size: 30px;
   }
   .rounded-social-buttons .social-button.facebook {
@@ -300,6 +301,15 @@
     color: #8a3ab9;
     background: #fefefe;
     border-color: #8a3ab9;
+  }
+  .rounded-social-buttons .social-button.linkedin {
+    background: #0077b5;
+  }
+  .rounded-social-buttons .social-button.linkedin:hover,
+  .rounded-social-buttons .social-button.linkedin:focus {
+    color: #0077b5;
+    background: #fefefe;
+    border-color: #0077b5;
   }
   .footer {
     text-align: center;
